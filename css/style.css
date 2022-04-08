@@ -1,0 +1,42 @@
+
+    
+
+
+#header-img{
+   width: 150px;
+}
+
+body{
+    text-align: center;
+}
+#nav-bar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: black;
+}
+
+#header{
+    text-align: center;
+}
+
+@media(min-width:600px){
+    p{
+        flex-direction: column;
+    }
+}
+
+#past{
+    color: blue;
+}
+#present{
+    color: tomato;
+}
